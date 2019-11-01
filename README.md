@@ -9,7 +9,7 @@ from banks to news websites, and present a major challenge to making sure people
 
 ###Download&Install
 
-### git clone https://github.com/Ha3MrX/DDos-Attack
+### git clone https://github.com/neon-l/ddos-attack-tool-mod.git
 
 ### cd DDos-Attack
 
