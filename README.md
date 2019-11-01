@@ -11,7 +11,7 @@ from banks to news websites, and present a major challenge to making sure people
 
 ### git clone https://github.com/neon-l/ddos-attack-tool-mod.git
 
-### cd DDos-Attack
+### cd ddos-attack-mod
 
 ### chmod +x ddos-attack.py
 
