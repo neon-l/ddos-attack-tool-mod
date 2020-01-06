@@ -1,5 +1,5 @@
 # ddos-attack-tool-mod
-Ddos-Atttack(Ha3MrX) modded by neon-l
+Ddos-Atttack(Ha3MrX) modded by neon-l to be compactible with python 3
 # DDos-Attack 
 ### What Is A DDos-Attack
 
