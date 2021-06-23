@@ -1,5 +1,5 @@
 # ddos-attack-tool-mod
-Ddos-Atttack(Ha3MrX) modded by neon-l to be compactible with python 3
+Original Ddos-Atttack(Ha3MrX) modded to be compactible with python 3
 # DDos-Attack 
 ### What Is A DDos-Attack
 
@@ -17,4 +17,4 @@ from banks to news websites, and present a major challenge to making sure people
 
 ### python ddos-attack.py
 
-### Modded by neon-l
+
